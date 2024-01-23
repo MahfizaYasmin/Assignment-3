@@ -23,7 +23,8 @@
                 clifford: '#da373d',
                 'get-bg-primary': '#FF4240',
                 'meet-bg-primary': '#131318',
-                'program-bg-primary': 'rgba(19, 19, 24, 0.50)'
+                'program-bg-primary': 'rgba(19, 19, 24, 0.50)',
+                'footer-text': 'rgba(255, 255, 255, 0.60)',
               }
             }
           }
@@ -39,7 +40,7 @@
 </head>
 <body class="font-manrope">
     <!-- header section -->
-    <header class="container mx-auto lg:px-32 py-8">
+    <header class="container mx-auto px-3 lg:px-32 py-8">
         <!-- navbar section -->
         <div class="navbar bg-base-100">
             <div class="navbar-start">
@@ -92,7 +93,7 @@
           </div>
     </header>
     <!-- main section -->
-    <main class="container mx-auto lg:px-32 py-8">
+    <main class="container mx-auto px-3 lg:px-32 py-8">
       <!-- Professional Hockeys Club -->
       <div>
         <div class="border border-t-2 border-b-2 border-l-0 border-r-0 border-dashed justify-center items-center py-8">
@@ -140,15 +141,20 @@
         </div>
       </div>
       <!-- Program Sections -->
-      <div class="py-24">
+      <div class="py-24 ">
         <div class="border border-t-2 border-b-2 border-l-0 border-r-0 border-dashed justify-center items-center py-8">
           <h2 class="normal-case text-xl font-extrabold lg:text-4xl text-center">Program Sections</h2>
           <p class="text-center pt-6">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placeratz<br> dolor. Purus urna in sit nullam proin. </p>
         </div>
-        <div class="grid grid-cols-2">
+        <div class="grid lg:grid-cols-2 lg:grid-rows-2">
           <div class="relative h-64 bg-cover bg-center" style="background-image: url('./Images/2.png');">
             <div class="absolute inset-0 bg-gradient-to-r from-program-bg-primary to-program-bg-primary opacity-75"></div>
-            <!-- Your content goes here -->
+            <div>
+              <h2>Junior Program</h2>
+              <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+                enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+                <button class="btn bg-get-bg-primary text-white text-lg font-bold border-none">Register Now!</button>
+            </div>
           </div>
         </div>
       </div>
@@ -257,10 +263,110 @@
           </div>
         </div>
       </div>
+     <!-- clients question  -->
+     <div class="py-24">
+        <div class="border border-t-2 border-b-2 border-l-0 border-r-0 border-dashed justify-center items-center py-8">
+          <h2 class="normal-case text-xl font-extrabold lg:text-4xl text-center">Clients Question</h2>
+          <p class="text-center pt-6">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placeratz<br> dolor. Purus urna in sit nullam proin. </p>
+        </div>
+        <div class="grid lg:grid-cols-2 border-2 mt-12 p-8 rounded-2xl">
+          <div>
+            <img src="/Images/11.png">
+          </div>
+          <div>
+            <div class="collapse collapse-plus border-b-2 rounded-none">
+              <input type="radio" name="my-accordion-3" checked="checked" /> 
+              <div class="collapse-title text-xl font-bold">
+                Our Equipment
+              </div>
+              <div class="collapse-content"> 
+                <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+              </div>
+            </div>
+            <div class="collapse collapse-plus border-b-2 rounded-none">
+              <input type="radio" name="my-accordion-3" /> 
+              <div class="collapse-title text-xl font-bold">
+                Hockey Training
+              </div>
+              <div class="collapse-content"> 
+                <p>hello</p>
+              </div>
+            </div>
+            <div class="collapse collapse-plus border-b-2 rounded-none">
+              <input type="radio" name="my-accordion-3" /> 
+              <div class="collapse-title text-xl font-bold">
+                Private Lessons
+              </div>
+              <div class="collapse-content"> 
+                <p>hello</p>
+              </div>
+            </div>
+            <div class="collapse collapse-plus border-b-2 rounded-none">
+              <input type="radio" name="my-accordion-3" /> 
+              <div class="collapse-title text-xl font-bold">
+                Ski Touring
+              </div>
+              <div class="collapse-content"> 
+                <p>hello</p>
+              </div>
+            </div>
+            <div class="collapse collapse-plus border-b-2 rounded-none">
+              <input type="radio" name="my-accordion-3" /> 
+              <div class="collapse-title text-xl font-bold">
+                Booking
+              </div>
+              <div class="collapse-content"> 
+                <p>hello</p>
+              </div>
+            </div>
+            <div class="collapse collapse-plus border-b-2 rounded-none">
+              <input type="radio" name="my-accordion-3" /> 
+              <div class="collapse-title text-xl font-bold">
+                Pricings
+              </div>
+              <div class="collapse-content"> 
+                <p>hello</p>
+              </div>
+            </div>
+          </div>
+        </div>
+     </div>
     </main>
     <!-- footer section -->
-    <footer>
-
+    <footer class="footer px-10 py-10 lg:py-24 lg:px-28 bg-meet-bg-primary text-neutral-content lg:justify-evenly">
+      <div class="grid grid-cols-3 gap-5 lg:flex lg:gap-40">
+        <div class="col-span-4">
+          <h3 class="text-3xl font-extrabold pb-4">Get In Touch</h3>
+          <p class="text-footer-text text-base">Dit amet consectetur. Condimentum <br> adipiscing aliquam turpis placerat dolor. Purus<br> urna in sit nullam proin. </p>
+          <div>
+            <p class="flex gap-4 py-5 text-footer-text text-base"><img src="/Images/mail.png">hockeys@support.com</p>
+            <p class="flex gap-4 text-footer-text text-base"><img src="/Images/phn.png">(+62) 123-321-543</p>
+          </div>
+        </div>
+        <nav class="grid grid-flow-row col-span-2">
+          <header class="text-xl font-bold text-white pb-7">Company</header> 
+          <a class="link link-hover text-footer-text text-base">About us</a>
+          <a class="link link-hover text-footer-text text-base">Leadership</a>
+          <a class="link link-hover text-footer-text text-base">Careers</a>
+          <a class="link link-hover text-footer-text text-base">News & Article</a>
+          <a class="link link-hover text-footer-text text-base">Legal Notice</a>
+        </nav> 
+        <nav class="grid grid-flow-row col-span-2">
+          <header class="text-xl font-bold text-white pb-7">Support</header> 
+          <a class="link link-hover text-footer-text text-base">Help Center</a>
+          <a class="link link-hover text-footer-text text-base">FAQ</a>
+          <a class="link link-hover text-footer-text text-base">Ticket Support</a>
+          <a class="link link-hover text-footer-text text-base">Contact Us</a>
+        </nav> 
+        <nav class="grid grid-flow-row col-span-4">
+          <header class="text-xl font-bold text-white pb-7">Services</header> 
+          <a class="link link-hover text-footer-text text-base">Academy</a>
+          <a class="link link-hover text-footer-text text-base">Group Lesson</a>
+          <a class="link link-hover text-footer-text text-base">Private Lesson</a>
+          <a class="link link-hover text-footer-text text-base">Hockeys for kids</a>
+          <a class="link link-hover text-footer-text text-base">Hockeys for Adult</a>
+        </nav>
+      </div>
     </footer>
 </body>
 </html>
