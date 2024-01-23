@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/f2e4d6a782.js" crossorigin="anonymous"></script>
 
     <!-- tailwind custom class -->
     <script>
@@ -21,6 +23,7 @@
                 clifford: '#da373d',
                 'get-bg-primary': '#FF4240',
                 'meet-bg-primary': '#131318',
+                'program-bg-primary': 'rgba(19, 19, 24, 0.50)'
               }
             }
           }
@@ -142,16 +145,118 @@
           <h2 class="normal-case text-xl font-extrabold lg:text-4xl text-center">Program Sections</h2>
           <p class="text-center pt-6">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placeratz<br> dolor. Purus urna in sit nullam proin. </p>
         </div>
-        <div>
-          <div class="w-full bg-[linear-gradient(rgba(19, 19, 24, 0.50)),url-(./Images/2.png)] bg-cover bg-no-repeat bg-center">
-            <h2>Junior Program</h2>
-            <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
-              enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
-
+        <div class="grid grid-cols-2">
+          <div class="relative h-64 bg-cover bg-center" style="background-image: url('./Images/2.png');">
+            <div class="absolute inset-0 bg-gradient-to-r from-program-bg-primary to-program-bg-primary opacity-75"></div>
+            <!-- Your content goes here -->
           </div>
         </div>
       </div>
-
+      <!-- Our New Products -->
+      <div>
+        <div class="border border-t-2 border-b-2 border-l-0 border-r-0 border-dashed justify-center items-center py-8">
+          <h2 class="normal-case text-xl font-extrabold lg:text-4xl text-center">Our New Products</h2>
+          <p class="text-center pt-6">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placeratz<br> dolor. Purus urna in sit nullam proin. </p>
+        </div>
+        <div class="grid lg:grid-cols-2 lg:grid-rows-3 pt-12 gap-4">
+          <div class="card lg:card-side bg-base-100 border-2">
+            <figure class="py-5 pl-4"><img class="w-64 lg:pb-4 rounded-xl" src="/Images/5.png"/></figure>
+            <div class="pl-6 pt-5 lg:p-6">
+              <div class="flex py-4">
+                <p class="flex pr-5 gap-2"><img src="Images/Frame.png"> 5.0</p>
+                <p class="flex pr-5 gap-2"><img src="Images/Frame (2).png"> 200</p>
+                <p class="flex gap-2"><img src="Images/Frame (1).png"> 20</p>
+              </div>
+              <h2 class="card-title text-xl font-extrabold py-3">World Cup Flags Football</h2>
+              <p>Dolor sit amet consectetur. Ut urna diam <br> quis sagittis. </p>
+              <div class="flex-row pt-4 lg:flex lg:gap-5">
+                <h4 class="text-get-bg-primary text-lg  font-extrabold pb-4">Price - $22.00</h4>
+                <p class="flex pb-4 gap-2"><img class="w-6 h-6" src="/Images/Frame.svg"> Delivery Fee : Free</p>
+              </div>
+            </div>
+          </div>
+          <div class="card lg:card-side bg-base-100 border-2">
+            <figure class="py-5 pl-4"><img class="w-64 lg:pb-4 rounded-xl" src="/Images/6.png"/></figure>
+            <div class="pl-6 pt-5 lg:p-6">
+              <div class="flex py-4">
+                <p class="flex pr-5 gap-2"><img src="Images/Frame.png"> 5.0</p>
+                <p class="flex pr-5 gap-2"><img src="Images/Frame (2).png"> 200</p>
+                <p class="flex gap-2"><img src="Images/Frame (1).png"> 20</p>
+              </div>
+              <h2 class="card-title text-xl font-extrabold py-3">World Cup Flags Football</h2>
+              <p>Dolor sit amet consectetur. Ut urna diam <br> quis sagittis. </p>
+              <div class="flex-row pt-4 lg:flex lg:gap-5">
+                <h4 class="text-get-bg-primary text-lg  font-extrabold pb-4">Price - $22.00</h4>
+                <p class="flex pb-4 gap-2"><img class="w-6 h-6" src="/Images/Frame.svg"> Delivery Fee : Free</p>
+              </div>
+            </div>
+          </div>
+          <div class="card lg:card-side bg-base-100 border-2">
+            <figure class="py-5 pl-4"><img class="w-64 lg:pb-4 rounded-xl" src="/Images/7.png"/></figure>
+            <div class="pl-6 pt-5 lg:p-6">
+              <div class="flex py-4">
+                <p class="flex pr-5 gap-2"><img src="Images/Frame.png"> 5.0</p>
+                <p class="flex pr-5 gap-2"><img src="Images/Frame (2).png"> 200</p>
+                <p class="flex gap-2"><img src="Images/Frame (1).png"> 20</p>
+              </div>
+              <h2 class="card-title text-xl font-extrabold py-3">World Cup Flags Football</h2>
+              <p>Dolor sit amet consectetur. Ut urna diam <br> quis sagittis. </p>
+              <div class="flex-row pt-4 lg:flex lg:gap-5">
+                <h4 class="text-get-bg-primary text-lg  font-extrabold pb-4">Price - $22.00</h4>
+                <p class="flex pb-4 gap-2"><img class="w-6 h-6" src="/Images/Frame.svg"> Delivery Fee : Free</p>
+              </div>
+            </div>
+          </div>
+          <div class="card lg:card-side bg-base-100 border-2">
+            <figure class="py-5 pl-4"><img class="w-64 lg:pb-4 rounded-xl" src="/Images/8.png"/></figure>
+            <div class="pl-6 pt-5 lg:p-6">
+              <div class="flex py-4">
+                <p class="flex pr-5 gap-2"><img src="Images/Frame.png"> 5.0</p>
+                <p class="flex pr-5 gap-2"><img src="Images/Frame (2).png"> 200</p>
+                <p class="flex gap-2"><img src="Images/Frame (1).png"> 20</p>
+              </div>
+              <h2 class="card-title text-xl font-extrabold py-3">World Cup Flags Football</h2>
+              <p>Dolor sit amet consectetur. Ut urna diam <br> quis sagittis. </p>
+              <div class="flex-row pt-4 lg:flex lg:gap-5">
+                <h4 class="text-get-bg-primary text-lg  font-extrabold pb-4">Price - $22.00</h4>
+                <p class="flex pb-4 gap-2"><img class="w-6 h-6" src="/Images/Frame.svg"> Delivery Fee : Free</p>
+              </div>
+            </div>
+          </div>
+          <div class="card lg:card-side bg-base-100 border-2">
+            <figure class="py-5 pl-4"><img class="w-64 lg:pb-4 rounded-xl" src="/Images/9.png"/></figure>
+            <div class="pl-6 pt-5 lg:p-6">
+              <div class="flex py-4">
+                <p class="flex pr-5 gap-2"><img src="Images/Frame.png"> 5.0</p>
+                <p class="flex pr-5 gap-2"><img src="Images/Frame (2).png"> 200</p>
+                <p class="flex gap-2"><img src="Images/Frame (1).png"> 20</p>
+              </div>
+              <h2 class="card-title text-xl font-extrabold py-3">World Cup Flags Football</h2>
+              <p>Dolor sit amet consectetur. Ut urna diam <br> quis sagittis. </p>
+              <div class="flex-row pt-4 lg:flex lg:gap-5">
+                <h4 class="text-get-bg-primary text-lg  font-extrabold pb-4">Price - $22.00</h4>
+                <p class="flex pb-4 gap-2"><img class="w-6 h-6" src="/Images/Frame.svg"> Delivery Fee : Free</p>
+              </div>
+            </div>
+          </div>
+          <div class="card lg:card-side bg-base-100 border-2">
+            <figure class="py-5 pl-4"><img class="w-64 lg:pb-4 rounded-xl" src="/Images/10.png"/></figure>
+            <div class="pl-6 pt-5 lg:p-6">
+              <div class="flex py-4">
+                <p class="flex pr-5 gap-2"><img src="Images/Frame.png"> 5.0</p>
+                <p class="flex pr-5 gap-2"><img src="Images/Frame (2).png"> 200</p>
+                <p class="flex gap-2"><img src="Images/Frame (1).png"> 20</p>
+              </div>
+              <h2 class="card-title text-xl font-extrabold py-3">World Cup Flags Football</h2>
+              <p>Dolor sit amet consectetur. Ut urna diam <br> quis sagittis. </p>
+              <div class="flex-row pt-4 lg:flex lg:gap-5">
+                <h4 class="text-get-bg-primary text-lg  font-extrabold pb-4">Price - $22.00</h4>
+                <p class="flex pb-4 gap-2"><img class="w-6 h-6" src="/Images/Frame.svg"> Delivery Fee : Free</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
     <!-- footer section -->
     <footer>
