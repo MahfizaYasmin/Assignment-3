@@ -25,6 +25,10 @@
                 'meet-bg-primary': '#131318',
                 'program-bg-primary': 'rgba(19, 19, 24, 0.50)',
                 'footer-text': 'rgba(255, 255, 255, 0.60)',
+                'touch-phn-bg': 'rgba(188, 237, 109, 0.10)',
+                'touch-mail-bg': 'rgba(253, 221, 95, 0.10)',
+                'touch-map-bg': 'rgba(98, 156, 243, 0.10)',
+                
               }
             }
           }
@@ -40,7 +44,7 @@
 </head>
 <body class="font-manrope">
     <!-- header section -->
-    <header class="container mx-auto px-3 lg:px-32 py-8">
+    <header class="container mx-auto lg:px-32 px-8 py-8">
         <!-- navbar section -->
         <div class="navbar bg-base-100">
             <div class="navbar-start">
@@ -93,7 +97,7 @@
           </div>
     </header>
     <!-- main section -->
-    <main class="container mx-auto px-3 lg:px-32 py-8">
+    <main class="container mx-auto lg:px-32 px-8 py-8">
       <!-- Professional Hockeys Club -->
       <div>
         <div class="border border-t-2 border-b-2 border-l-0 border-r-0 border-dashed justify-center items-center py-8">
@@ -330,12 +334,69 @@
             </div>
           </div>
         </div>
+     </div> 
+     <!-- Get In Touch -->
+     <div>
+        <div class="border border-t-2 border-b-2 border-l-0 border-r-0 border-dashed justify-center items-center py-8">
+          <h2 class="normal-case text-xl font-extrabold lg:text-4xl text-center">Get In Touch</h2>
+          <p class="text-center pt-6">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placeratz<br> dolor. Purus urna in sit nullam proin. </p>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-3 py-12">
+          <div class="grid border-2 border-gray-200 rounded-2xl mr-6 p-12 gap-4">
+            <div class="bg-touch-phn-bg h-44 p-8 rounded-2xl">
+              <img class="mb-6" src="./Images/Group 1171275317.png">
+              <label class="">Phone Number : </label>
+              <p class="text-lg font-extrabold">(+62) 123-321-543</p>
+            </div>
+            <div class="bg-touch-mail-bg h-44 p-8 rounded-2xl">
+              <img class="mb-6" src="./Images/Group 1171275318.png">
+              <label class="">Phone Number : </label>
+              <p class="text-lg font-extrabold">(+62) 123-321-543</p>
+            </div>
+            <div class="bg-touch-map-bg h-44 p-8 rounded-2xl">
+              <img class="mb-6" src="./Images/Group 1171275321.png">
+              <label class="">Phone Number : </label>
+              <p class="text-lg font-extrabold">(+62) 123-321-543</p>
+            </div>
+          </div> 
+          <div class="mt-6 lg:mt-0 lg:col-span-2">
+            <div class="grid gap-6 grid-cols-1 lg:grid-cols-2">
+              <div>
+                <label class="text-xl font-bold">Your Name</label>
+                <input type="text" placeholder="Enter your full name" class="input input-bordered w-full border-none bg-gray-100 mt-3"/>
+              </div>
+              <div>
+                <label class="text-xl font-bold">Your Email</label>
+                <input type="text" placeholder="Enter your email" class="input input-bordered w-full border-none bg-gray-100 mt-3"/>
+              </div>
+              <div>
+                <label class="text-xl font-bold">Subject</label>
+                <input type="text" placeholder="Enter your subject" class="input input-bordered w-full border-none bg-gray-100 mt-3"/>
+              </div>
+              <div>
+                <label class="text-xl font-bold">Phone Number</label>
+                <input type="text" placeholder="Enter your phone number" class="input input-bordered w-full border-none bg-gray-100 mt-3"/>
+              </div>
+            </div>
+            <div class="pt-6">
+              <label class="text-xl font-bold">Message</label>
+              <textarea class="textarea textarea-bordered w-full bg-gray-100 border-none mt-3" placeholder="Bio" rows="10">Write your message</textarea>
+            </div>
+            <div class="mt-8">
+              <button class="w-full bg-get-bg-primary text-white text-xl font-bold rounded-xl py-4">Send Message</button>
+            </div>
+          </div>
+        </div>
+        <div class="grid gap-5 bg-gray-100 h-36 rounded-2xl py-9 justify-items-center">
+          <h3 class="text-2xl font-extrabold">Social Media</h3>
+          <img src="./Images/Social.svg">
+        </div>
      </div>
     </main>
     <!-- footer section -->
     <footer class="footer px-10 py-10 lg:py-24 lg:px-28 bg-meet-bg-primary text-neutral-content lg:justify-evenly">
       <div class="grid grid-cols-3 gap-5 lg:flex lg:gap-40">
-        <div class="col-span-4">
+        <div class="col-span-4 pl-4 lg:pl-0">
           <h3 class="text-3xl font-extrabold pb-4">Get In Touch</h3>
           <p class="text-footer-text text-base">Dit amet consectetur. Condimentum <br> adipiscing aliquam turpis placerat dolor. Purus<br> urna in sit nullam proin. </p>
           <div>
@@ -358,7 +419,7 @@
           <a class="link link-hover text-footer-text text-base">Ticket Support</a>
           <a class="link link-hover text-footer-text text-base">Contact Us</a>
         </nav> 
-        <nav class="grid grid-flow-row col-span-4">
+        <nav class="grid grid-flow-row col-span-4 pl-24 lg:pl-0">
           <header class="text-xl font-bold text-white pb-7">Services</header> 
           <a class="link link-hover text-footer-text text-base">Academy</a>
           <a class="link link-hover text-footer-text text-base">Group Lesson</a>
