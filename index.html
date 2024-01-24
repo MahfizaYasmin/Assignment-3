@@ -44,7 +44,7 @@
 </head>
 <body class="font-manrope">
     <!-- header section -->
-    <header class="container mx-auto lg:px-32 px-8 py-8">
+    <header class="container mx-auto lg:px-32 px-8 py-8 relative">
         <!-- navbar section -->
         <div class="navbar bg-base-100">
             <div class="navbar-start">
@@ -93,7 +93,11 @@
                 <a href="#slide1" class="btn btn-circle">❮</a> 
                 <a href="#slide1" class="btn btn-circle">❯</a>
               </div>
-            </div>  
+            </div>
+            <div class="absolute bg-black rounded-2xl p-8 bottom-0 right-0 lg:bottom-32 lg:right-40 ">
+              <h3 class="text-2xl font-extrabold text-white">Meet all the heroes from the field</h3>
+              <p class="text-gray-200 mt-4">Dit amet consectetur. Condimentum dignissim adipiscing aliquam<br> turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            </div> 
           </div>
     </header>
     <!-- main section -->
@@ -150,16 +154,38 @@
           <h2 class="normal-case text-xl font-extrabold lg:text-4xl text-center">Program Sections</h2>
           <p class="text-center pt-6">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placeratz<br> dolor. Purus urna in sit nullam proin. </p>
         </div>
-        <div class="grid lg:grid-cols-2 lg:grid-rows-2">
-          <div class="relative h-64 bg-cover bg-center" style="background-image: url('./Images/2.png');">
-            <div class="absolute inset-0 bg-gradient-to-r from-program-bg-primary to-program-bg-primary opacity-75"></div>
-            <div>
-              <h2>Junior Program</h2>
-              <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
-                enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
-                <button class="btn bg-get-bg-primary text-white text-lg font-bold border-none">Register Now!</button>
+        <div class="grid gap-6 grid-cols-1 lg:grid-cols-2">
+            <div class="relative h-64 bg-cover bg-center" style="background-image: url('./Images/2.png');">
+              <!-- <div class="absolute inset-0 bg-gradient-to-r from-program-bg-primary to-program-bg-primary opacity-75"></div> -->
+              <div class=" pl-10 pt-12">
+                <h2 class="text-white text-2xl font-extrabold pb-3">Junior Program</h2>
+                <p class="text-white">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit <br>
+                  enim sagittis turpis in magna. Id et sed euismod natoque amet nunc <br> morbi nulla. Tortor congue sed et in.</p>
+                  <button class="btn bg-get-bg-primary text-white text-lg font-bold border-none mt-6 mb-8">Register Now!</button>
+              </div>
+            </div>
+            <div class="relative h-64 bg-cover bg-center" style="background-image: url('./Images/3.png');">
+              <!-- <div class="absolute inset-0 bg-gradient-to-r from-program-bg-primary to-program-bg-primary opacity-75"></div> -->
+              <div class=" pl-10 pt-12">
+                <h2 class="text-white text-2xl font-extrabold pb-3">Junior Program</h2>
+                <p class="text-white">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit <br>
+                  enim sagittis turpis in magna. Id et sed euismod natoque amet nunc <br> morbi nulla. Tortor congue sed et in.</p>
+                  <button class="btn bg-get-bg-primary text-white text-lg font-bold border-none mt-6 mb-8">Register Now!</button>
+              </div>
+            </div>
+         
+        </div>
+        <div class="grid gap-6 my-6 grid-cols-1 lg:grid-cols-1">
+          <div class="relative h-[420px] bg-cover bg-center" style="background-image: url('./Images/4.png');">
+            <!-- <div class="absolute inset-0 bg-gradient-to-r from-program-bg-primary to-program-bg-primary opacity-75"></div> -->
+            <div class=" pl-10 pb-10 pt-48">
+              <h2 class="text-white text-2xl font-extrabold pb-4">Junior Program</h2>
+              <p class="text-white">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit <br>
+                enim sagittis turpis in magna. Id et sed euismod natoque amet nunc <br> morbi nulla. Tortor congue sed et in.</p>
+                <button class="btn bg-get-bg-primary text-white text-lg font-bold border-none mt-8">Register Now!</button>
             </div>
           </div>
+          
         </div>
       </div>
       <!-- Our New Products -->
@@ -336,7 +362,7 @@
         </div>
      </div> 
      <!-- Get In Touch -->
-     <div>
+     <div class="pb-24">
         <div class="border border-t-2 border-b-2 border-l-0 border-r-0 border-dashed justify-center items-center py-8">
           <h2 class="normal-case text-xl font-extrabold lg:text-4xl text-center">Get In Touch</h2>
           <p class="text-center pt-6">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placeratz<br> dolor. Purus urna in sit nullam proin. </p>
